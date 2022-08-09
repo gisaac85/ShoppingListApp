@@ -4,10 +4,24 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header/header.component';
+import { RecipesComponent } from './recipes/recipes/recipes.component';
+import { RecipeListComponent } from './recipes/recipes/recipe-list/recipe-list/recipe-list.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail/recipe-detail.component';
+import { RecipeItemComponent } from './recipes/recipes/recipe-list/recipe-list/recipe-item/recipe-item/recipe-item.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-list/shopping-edit/shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    RecipesComponent,
+    RecipeListComponent,
+    RecipeDetailComponent,
+    RecipeItemComponent,
+    ShoppingListComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,
